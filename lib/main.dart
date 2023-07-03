@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:tiktok_clone/features/onboarding/interests_screen.dart';
 
 import 'constants/sizes.dart';
-import 'features/authentication/sign_up_screen.dart';
 
 void main() {
   runApp(const TikTokApp());
@@ -29,7 +29,7 @@ class TikTokApp extends StatelessWidget {
             ),
           ) //틱톡색깔
           ),
-      home: const SignUpScreen(),
+      home: const InterestsScreen(),
     );
   }
 }
